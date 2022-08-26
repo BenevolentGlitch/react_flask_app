@@ -1,6 +1,6 @@
 ## Starting Docker Images
 
-API
+### Flask API
 
 From the main directory first navigate to api/
 From that directory run the following commands:
@@ -10,6 +10,8 @@ From that directory run the following commands:
 The Flask app is now running the development mode.\
 Open [http://localhost:5000](http://localhost:5000) to view it in your browser.
 If you navigate to localhost:5000/ you should see 'hello world'
+
+### React UI
 
 From the main directory first navigate to react-app/
 From that directory run the following commands:
