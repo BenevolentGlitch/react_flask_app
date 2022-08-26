@@ -10,6 +10,10 @@ GET = 'GET'
 POST = 'POST'
 
 
+@app.route("/")
+def index():
+    return "<p>Hello, World!</p>"
+
 @app.route("/upload", methods=[POST])
 def upload_file():
     uploaded_file = request.files['File']

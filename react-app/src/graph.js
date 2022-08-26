@@ -32,7 +32,7 @@ const Graph = ({ graphData }) => {
       },
       title: {
         display: true,
-        text: "Bensons's Law",
+        text: "Benford's Law",
       },
     },
   };

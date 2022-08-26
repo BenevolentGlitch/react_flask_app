@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Does your data match Benson's law?</h1>
+        <h1>Does your data match Benford's law?</h1>
       </header>
       <Graph graphData={graphData}/>
       <Upload graphData={setGraphData}/>

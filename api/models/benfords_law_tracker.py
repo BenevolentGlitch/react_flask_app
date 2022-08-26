@@ -26,18 +26,8 @@ class BenfordsLawTracker(object):
                 for index in range(0,10)]
 
     @property
-    def total_rows(self):
-        return self._row_count
-
-    @property
     def counters(self):
         return self._counters
-
-    def expected_percentage(self, digit):
-        return self._counters[digit][self.EXPECTED_PERCENTAGE]
-
-    def actual_percentage(self, digit):
-        return self._counters[digit][self.ACTUAL_PERCENTAGE]
 
     def increase_row_count(self):
         self._total_rows +=1
